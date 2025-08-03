@@ -6,14 +6,14 @@ You are a Product Analyst on the WhatsApp team investigating group messaging dyn
 
 ## Question 1 of 3
 
-**What is the maximum number of participants among WhatsApp groups that were created in October 2024?**  
+What is the maximum number of participants among WhatsApp groups that were created in October 2024?  
 This metric will help us understand the largest group size available.
 
 ### Approach
 
-The goal is to find the **maximum value** of `participant_count` for groups where `created_date` is in **October 2024**.
+The goal is to find the maximum value of `participant_count` for groups where `created_date` is in October 2024.
 
-**Steps:**
+Steps:
 
 1. Filter the DataFrame for rows where `created_date` is in October 2024.
 2. Extract the `participant_count` column from those filtered rows.
@@ -40,7 +40,7 @@ print(max_participants)
 
 ## Question 2 of 3
 
-**What is the average number of participants in WhatsApp groups that were created in October 2024?**  
+What is the average number of participants in WhatsApp groups that were created in October 2024?  
 This number will indicate the typical group size and inform our group messaging feature considerations.
 
 ### Approach
@@ -71,7 +71,7 @@ print("Average number of participants in October 2024 groups:", avg_participants
 
 ## Question 3 of 3
 
-**For WhatsApp groups with more than 50 participants that were created in October 2024, what is the average number of messages sent?**  
+For WhatsApp groups with more than 50 participants that were created in October 2024, what is the average number of messages sent?
 This insight will help assess engagement in larger groups and support recommendations for group messaging features.
 
 ### Approach

@@ -16,7 +16,7 @@ Columns: ad_id, product_id, clicks, impressions, recorded_date
 dim_product:
 Columns: product_id, product_category, product_name
 
-🎯 Goal
+Goal
 Calculate average CTR (clicks / impressions) per product category, where:
 
 The category contains 'Electronics'
